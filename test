@@ -1,0 +1,3 @@
+-t 4 -f../submod/1
+-t 4 -f../submod/2
+-t 4 -f../submod/3

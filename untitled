@@ -1,0 +1,47 @@
+# kernel selection algorithm
+# call "sh select_kernel.sh < file_for_kernel_selected no_of_kernel_to_select current kernel_prefix kernel_prefix_smo names_cov"
+# parameter
+read filename name_kernel_sel name_kernel name_data c lambda eta q no_of_kernel no_of_kernel_to_select 
+#
+current=submod_max
+curr2smo=../../smo-mkl/
+smo2curr=../MATLAB/submod_max
+kernel_prefix=$smo2curr"kernel_file_"
+train=$smo2curr"/smo/"$filename"/label_train"
+model_prefix=$smo2curr"/model_"
+kernel_left=kernel_left
+kernel_sel=kernel_sel
+
+#write kernel_left file
+rm -f $kernel_sel
+rm -f $kernel_left
+# create kernel files for first iteration
+matlab -nodisplay -nodesktop -r "cd $current;create_kernel_file_initial('$filename',no_of_kernel); quit;"
+# selecting kernels
+no_of_kernel_selected=0
+flag_init=1
+while [ $no_of_kernel_selected -lt $no_of_kernel_to_select ]
+do
+	# for each of remaining kernel, call smo
+	while read kernel_l
+	do		
+		kernel=$kernel_prefix$kernel_l
+		model=$model_prefix$kernel_l
+		sh call_smo-mkl.sh < no_of_kernel q  c lambda train model kernel curr2smo smo2curr  
+	done < $kernel_left
+	# remove all kernel file
+	rm -f  kernel_file_*
+	# select_kernel_step.m does following jobs
+	# read alpha
+	# create vector
+	# select kernel
+	# write kernel file for next bunch of smo calls
+	matlab -nodisplay -nodesktop -r "cd $current; select_kernel_step($lambda,$eta,$q,$delta,'$name_kernel','$filename','$name_data'); quit;" ##check
+	 
+	# remove all model file
+	rm -f model_*
+	no_of_kernel_selected=`expr $no_of_kernel_selected + 1`
+    flag_init=0
+done
+# move selected kernels to a special file
+mv $kernel_sel $name_kernel_sel

@@ -1,0 +1,6 @@
+% new data
+process_standard_data()
+%create kernel
+create_data_kernel_for_kernel_selection()
+% run kernel selection algo
+terminal$ ./run_select_kernel_algo_batch.sh

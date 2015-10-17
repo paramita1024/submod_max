@@ -1,0 +1,11 @@
+data must be names as data_filename
+it contains test train label_test label_train
+
+
+while running code each time, you must change exp number
+
+How to run
+1.go to matlab and call create_data_kernel_for_kernel_selection
+2.open shell script run_select_kernel_batch
+3.kernel files will be saved in selected_kernel folder
+4.call get_accuracy_batch.sh for performance

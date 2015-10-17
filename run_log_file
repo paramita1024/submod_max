@@ -1,0 +1,124 @@
+Warning: No window system found.  Java option 'MWT' ignored
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012a (7.14.0.739) 32-bit (glnx86)
+                              February 9, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_1 -c 10 -l .1 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_1
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_2 -c 10 -l .1 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_2
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_3 -c 10 -l .1 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_3
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_4 -c 10 -l .1 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_4
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_5 -c 10 -l .1 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_5
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_6 -c 10 -l .1 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_6
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_7 -c 10 -l .1 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_7
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_8 -c 10 -l .1 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_8
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_9 -c 10 -l .1 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_9
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_10 -c 10 -l .1 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_10
+Warning: No window system found.  Java option 'MWT' ignored
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012a (7.14.0.739) 32-bit (glnx86)
+                              February 9, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+difference
+     0
+
+     0
+
+    0.6108
+    0.7143
+    0.7565
+    0.7875
+    0.8213
+    0.8303
+    0.8586
+    0.9670
+    0.9831
+    0.9966
+
+    0.6108
+    0.7143
+    0.7565
+    0.7875
+    0.8213
+    0.8303
+    0.8586
+    0.9670
+    0.9831
+    0.9966
+
+selected kernel
+    10
+
+Warning: No window system found.  Java option 'MWT' ignored
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012a (7.14.0.739) 32-bit (glnx86)
+                              February 9, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_1 -c 10 -l .5 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_1
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_2 -c 10 -l .5 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_2
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_3 -c 10 -l .5 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_3
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_4 -c 10 -l .5 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_4
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_5 -c 10 -l .5 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_5
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_6 -c 10 -l .5 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_6
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_7 -c 10 -l .5 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_7
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_8 -c 10 -l .5 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_8
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_9 -c 10 -l .5 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_9
+./svm-train -a 1 -s 3 -g 3 -o 1.5 -q -f 0 -j 1 -k ../MATLAB/submod_max/kernel_file_10 -c 10 -l .5 ../MATLAB/submod_max/smo/liver/label_train ../MATLAB/submod_max/model_10
+Warning: No window system found.  Java option 'MWT' ignored
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012a (7.14.0.739) 32-bit (glnx86)
+                              February 9, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+difference
+     0
+
+     0
+
+    0.6108
+    0.7143
+    0.7565
+    0.7875
+    0.8213
+    0.8303
+    0.8586
+    0.9670
+    0.9831
+    0.9966
+
+    0.6108
+    0.7143
+    0.7565
+    0.7875
+    0.8213
+    0.8303
+    0.8586
+    0.9670
+    0.9831
+    0.9966
+
+selected kernel
+    10
+
